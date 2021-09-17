@@ -1,0 +1,126 @@
+body{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-self: center;
+}
+
+p{
+    font-size: 20px;
+}
+body > div{
+    padding: 50px 0;
+}
+div{
+    align-self: center;
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: grey;
+}
+.nav{
+    background-color: none;
+    background-image: none;
+}
+img{
+    object-fit: cover;
+    border:1px solid;
+}
+
+.navbar-collapse {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.fullscreen{
+    min-height: 100vh;
+}
+.bluediv{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,0,108,1) 45%, rgba(8,10,131,1) 73%, rgba(0,17,167,1) 100%);
+    color: white;
+}
+.nav-link{
+    color: whitesmoke;
+}
+.button{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,245,253,1) 100%);
+color: white;
+display: inline-block;
+width: auto;
+font-size: 2.5rem;
+border-radius: 42px;
+padding: 8px 15px;
+}
+.col-md-6{
+    align-self: center;
+}
+.row{
+    margin:50px 0;
+}
+.col-md-3{
+    margin: auto;
+    border:1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #202274;
+}
+.whitediv{
+    box-sizing: border-box;
+    padding:10px 200px;
+}
+.footerdiv{
+    background-color: rgb(49,55,81);
+    box-sizing: border-box;
+    padding:10px 200px;
+}
+.footerdiv.p .div a{
+    color: white;
+    text-align-last: center;
+    margin:10px;
+    padding: 10px;
+}
+.navbar-collapse{
+    align-items: right;
+    text-align: end;
+}
+@media only screen 
+and (max-device-width: 786px){
+    .footerdiv.p .div a{
+        margin:0;
+    padding: 0;
+    }
+    .footerdiv{
+        padding: 0;
+    }
+.whitediv{
+    padding: 0;
+    margin-bottom: 20px;
+}
+.col-md-3{
+    padding: 0;
+    margin-bottom: 20px;
+}
+.row{
+    margin:50px 0;
+    padding: auto;
+}
+.col-md{
+    margin: auto;
+    padding: auto;
+}
+.row-mod-6{
+    margin-top: 20px;
+    padding: auto;
+}
+}
